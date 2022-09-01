@@ -10,4 +10,5 @@
     @include('partials.contact')
     @include('partials.footer')
     @include('partials.modal1')
+    @include('partials.modal2')
 @endsection
