@@ -4,4 +4,10 @@
     @include('partials.header')
     @include('partials.services')
     @include('partials.potfolio')
+    @include('partials.about')
+    @include('partials.team')
+    @include('partials.clients')
+    @include('partials.contact')
+    @include('partials.footer')
+    @include('partials.modal1')
 @endsection
