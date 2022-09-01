@@ -21,14 +21,14 @@
   <link href="{{asset('https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700')}}" rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="{asset('css/agency.min.css')}" rel="stylesheet">
+  <link href="{{asset('css/agency.min.css')}}" rel="stylesheet">
   @vite(['resources/js/app.js'])
 
 </head>
 
 <body id="page-top">
 
-    @yield(’content’)
+    @yield('content')
     <script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
     <script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
   
