@@ -1,4 +1,4 @@
 @extends('layout.app')
 @section('content')
-    //contenue
+    @include('partials.nav')
 @endsection
