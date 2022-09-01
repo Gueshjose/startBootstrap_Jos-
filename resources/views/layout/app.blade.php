@@ -22,6 +22,7 @@
 
   <!-- Custom styles for this template -->
   <link href="{asset('css/agency.min.css')}" rel="stylesheet">
+  @vite(['resources/js/app.js'])
 
 </head>
 
